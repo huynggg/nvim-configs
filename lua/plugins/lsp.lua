@@ -128,18 +128,6 @@ return {
             },
           },
         },
-
-        -- pylsp = {
-        --   settings = {
-        --     pylsp = {
-        --       plugins = {
-        --         pycodestyle = {
-        --           ignore = { "E501", "E402" },
-        --         },
-        --       },
-        --     },
-        --   },
-        -- },
       }
 
       -- ---------------------------------------------------
@@ -162,7 +150,7 @@ return {
         "ts_ls",
 
         -- Python
-        -- "pylsp",
+        "pylsp",
         "djlsp",
         "ruff",
 
